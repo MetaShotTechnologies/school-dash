@@ -131,9 +131,6 @@ function StudentDashboard() {
               </p>
             )}
           </div>
-          <button className="back-btn" onClick={() => navigate('/')}>
-            ← Back to Home
-          </button>
         </div>
 
         {error && (
